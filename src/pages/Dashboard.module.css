@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  min-height: 93vh;
+}
+
+.leftSection {
+  width: 250px;
+  flex: 0.2;
+}
+
+.rightSection {
+  flex: 1;
+  padding: 20px;
+}

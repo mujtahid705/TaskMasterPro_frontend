@@ -1,0 +1,85 @@
+.container {
+  padding: 1rem;
+  border: 1px solid #45454520;
+  border-top: 0.5rem solid green;
+  border-radius: 12px;
+  width: 25rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  transition: all 0.3s ease-in-out;
+  height: fit-content;
+  /* height: 280px; */
+  transition: 0.3s ease-in-out;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.title {
+  font-size: 18px;
+}
+
+.checked {
+  font-size: 1.5rem;
+  color: #303030;
+}
+
+.notChecked {
+  font-size: 1.5rem;
+  color: white;
+  background-color: black;
+}
+
+.container2 {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.delete {
+  font-size: 1.5rem;
+  color: rgb(204, 50, 50);
+}
+
+.arrow {
+  font-size: 1.5rem;
+  color: #303030;
+  transition: 0.3s ease;
+}
+
+.arrowClicked {
+  font-size: 1.5rem;
+  color: #303030;
+  transform: rotate(-90deg);
+  transition: transform 0.3s ease;
+}
+
+.section2 {
+  transition: 0.3s ease-in-out;
+}
+
+.description {
+  text-align: justify;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  margin: 12px 0;
+}

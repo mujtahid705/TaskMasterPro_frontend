@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  border: 1px solid #45454520;
+  border-top: 0.5rem solid green;
+  border-radius: 12px;
+  width: 25rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  transition: all 0.3s ease-in-out;
+  height: fit-content;
+  /* height: 280px; */
+}
+
+.container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.text_container {
+  overflow: hidden;
+}
+
+.description {
+  text-align: justify;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  margin: 12px 0;
+}
+
+.title {
+  font-size: 20px;
+  padding-bottom: 0.5rem;
+}
+
+.title_status_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #45454534;
+}
+
+.status {
+  padding: 0.2rem 0.5rem;
+  border-radius: 12px;
+  color: white;
+  border: 1px solid #45454534;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+
+.not_started {
+  background-color: #e21515;
+}
+
+.in_progress {
+  background-color: #e2c015;
+}
+
+.completed {
+  background-color: #27a922;
+}
+
+.btns_container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.assigned_employees {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.8rem;
+  color: #432fb0;
+}
+
+.employeeInfo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}

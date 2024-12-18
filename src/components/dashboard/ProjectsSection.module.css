@@ -1,0 +1,44 @@
+.projectGrid {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 20px;
+  margin: 2rem 0; */
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.noProjects {
+  font-size: 1.5rem;
+  color: #666;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.addProject {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #007bff;
+  font-size: 3rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.addBtn:hover {
+  color: #0056b3;
+  transform: translateY(-5px);
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}

@@ -1,0 +1,74 @@
+.coverImg {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: brightness(70%);
+}
+
+.coverContainer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+.coverContainer {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding: 1rem 3rem;
+}
+
+.title {
+  color: white;
+}
+
+.description,
+.status {
+  color: white;
+}
+
+.tasksSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.addTask {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #007bff;
+  font-size: 3rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.addBtn:hover {
+  color: #0056b3;
+  transform: translateY(-5px);
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}

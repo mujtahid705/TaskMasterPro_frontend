@@ -1,0 +1,50 @@
+.container {
+  height: 93vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+}
+
+.text_container {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-family: "Poppins", system-ui;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.decription {
+  font-family: "Poppins", system-ui;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.login_card {
+  width: 500px;
+  height: 300px;
+}
+
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: blue;
+}
+
+.status {
+  display: flex;
+  justify-content: center;
+}

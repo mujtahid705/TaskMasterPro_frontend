@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #424242;
+  height: 50px;
+}
+
+.title {
+  color: #fff;
+  font-family: "Poppins", system-ui;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.right_container {
+  display: flex;
+  gap: 10px;
+}
+
+.link {
+  text-decoration: none;
+}
